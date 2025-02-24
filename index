@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timemaster - Space Edition</title>
+    <link rel="stylesheet" href="style.css">  <!-- Link to external CSS -->
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Planner</a>
+        <a href="#">Pomodoro Timer</a>
+        <a href="#">Focus Tips</a>
+        <a href="#">Goal Tracker</a>
+        <a href="#">Get Started</a>
+    </nav>
+
+    <!-- Logo & Title -->
+    <div class="logo-container">
+        <img src="your-logo.png" alt="Time Management Illustration">
+        <p class="title">Timemaster</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>🚀 Master Your Time, Conquer the Universe! 🌌</h1>
+        <p>AI-powered productivity tool to help you plan efficiently and eliminate distractions.</p>
+        <a href="#" class="cta">Start Planning Now</a>
+    </div>
+
+</body>
+</html>
