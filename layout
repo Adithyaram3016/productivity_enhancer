@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timemaster - Space Edition</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        body {
+            background: radial-gradient(circle at top, #0f0c29, #302b63, #24243e);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 12px;
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+        }
+
+        nav a {
+            color: #00d9ff;
+            text-decoration: none;
+            padding: 12px 20px;
+            display: inline-block;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff00ff;
+            text-shadow: 0px 0px 8px #ff00ff;
+        }
+
+        /* Logo */
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px 0;
+        }
+
+        .logo-container img {
+            width: 160px;
+            height: auto;
+            filter: drop-shadow(0px 0px 10px #00d9ff);
+        }
+
+        .title {
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 10px;
+            text-shadow: 0px 0px 10px #00d9ff;
+        }
+
+        /* Main Content */
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+        }
+
+        .container h1 {
+            font-size: 26px;
+            margin-bottom: 10px;
+            text-shadow: 0px 0px 10px #ff00ff;
+        }
+
+        .container p {
+            font-size: 16px;
+            color: #d4d4d4;
+            margin-bottom: 20px;
+        }
+
+        /* Call to Action Button */
+        .cta {
+            display: inline-block;
+            background: linear-gradient(90deg, #ff00ff, #00d9ff);
+            color: white;
+            padding: 14px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(255, 0, 255, 0.6);
+            transition: 0.3s;
+        }
+
+        .cta:hover {
+            box-shadow: 0px 0px 20px rgba(0, 217, 255, 0.8);
+            transform: scale(1.05);
+        }
+
+        /* Stars Background */
+        body::before {
+            content: "";
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: url('https://i.imgur.com/ybXH3Vr.png') repeat;
+            opacity: 0.2;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Planner</a>
+        <a href="#">Pomodoro Timer</a>
+        <a href="#">Focus Tips</a>
+        <a href="#">Goal Tracker</a>
+        <a href="#">Get Started</a>
+    </nav>
+
+    <!-- Logo & Title -->
+    <div class="logo-container">
+        <img src="your-logo.png" alt="Time Management Illustration">
+        <p class="title">Timemaster</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>🚀 Master Your Time, Conquer the Universe! 🌌</h1>
+        <p>AI-powered productivity tool to help you plan efficiently and eliminate distractions.</p>
+        <a href="#" class="cta">Start Planning Now</a>
+    </div>
+
+</body>
+</html>
